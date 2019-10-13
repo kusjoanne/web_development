@@ -30,11 +30,19 @@ body{
   color: #5edfff;
 }
 
+.skill_icon{
+  width: 50%;
+}
+
 .top-container{
   padding-top: 10%;
   position:relative;
 }
 
+.skill-row{
+  width: 50%;
+  margin: auto;
+}
 
 .top-cloud{
   position: absolute;
