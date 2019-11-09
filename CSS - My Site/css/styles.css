@@ -1,5 +1,5 @@
 h1{
-  margin: 50px auto 0 auto;
+  margin: 0 auto 0 auto;
   font-family: 'Handlee', cursive;
   font-size: 5rem;
   color: #5edfff;
@@ -7,6 +7,7 @@ h1{
 
 h2{
   font-size: 2.5rem;
+  color: #5edfff;
 }
 
 h3{
@@ -18,6 +19,21 @@ h3{
   font-weight: normal;
 }
 
+.skill_subtitle{
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.profile_pic{
+  margin-top: 50px;
+  border-radius: 50%;
+}
+
+.profile{
+  width:40%;
+  margin: auto;
+}
+
 a{
   color: #3e64ff;
 }
@@ -26,8 +42,13 @@ body{
   margin: 0;
   text-align: center;
   font-family:'Dosis', sans-serif;
-  background-color: #ecfcff;
   color: #5edfff;
+}
+
+hr{
+  margin-top: 30px;
+  border-top: 10px dotted #b2fcff;
+  width: 10%;
 }
 
 .skill_icon_left{
@@ -45,11 +66,21 @@ body{
 .top-container{
   padding-top: 10%;
   position:relative;
+  background-color: #ecfcff;
+}
+
+.middle-container{
+   color: #40514E;
+}
+
+.bottom-container{
+  padding-top: 50px;
+  background-color: #ecfcff;
 }
 
 .skill-row{
   width: 50%;
-  margin: 100px auto;
+  margin: 50px auto 0;
   text-align: left;
   line-height: 2;
   display: inline-block;
@@ -62,5 +93,34 @@ body{
 }
 
 .bottom-cloud{
-  position: absolute;
+  display: block;
+  margin-left: 20%;
+}
+
+.contact-me{
+  display: inline-block;
+  margin: auto;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.btn{
+  display: flex;
+  width: 100px;
+  align-items: center;
+  color: white;
+  position: relative;
+  background-color: #5edfff;
+  padding: 0 15px;
+  font-size: 20px;
+  line-height: 1.375em;
+  border-radius: 18px;
+  min-height: 56px;
+  margin: auto;
+}
+
+a{
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
 }
